@@ -1,0 +1,217 @@
+/* Remove Dash Undo-Redo Button
+----------------------------*/
+._dash-undo-redo {
+  display: none;
+}
+
+body {
+    max-width: 100%;
+}
+
+html{
+    max-width: 100%;
+    overflow-y: initial !important;
+    overflow-x: hidden !important;
+
+}
+
+#main-graph-container {
+  height:63vh;
+  max-height: 800px;
+  min-height: 200px;
+  width: 90%;
+  left: 5%;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+#lines-graph-container {
+  height:63vh;
+  max-height: 800px;
+  min-height: 200px;
+  width: 90%;
+  left: 5%;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+#pca-graph-container {
+ height:63vh;
+ max-height: 800px;
+ min-height: 200px;
+ width: 90%;
+ left: 5%;
+ margin: 0 auto;
+ padding: 0 20px;
+ text-align: center;
+}
+
+#example-1-graph-container {
+  height:60vh;
+  max-height: 800px;
+  min-height: 200px;
+  width: 90%;
+  left: 5%;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+#example-2-graph-container {
+   height:60vh;
+   max-height: 800px;
+   min-height: 200px;
+   width: 90%;
+   left: 5%;
+   margin: 0 auto;
+   padding: 0 20px;
+   text-align: center;
+ }
+
+ #example-3-graph-container {
+    height:65vh;
+    max-height: 800px;
+    min-height: 200px;
+    width: 90%;
+    left: 5%;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+#example-4-graph-container {
+   height:60vh;
+   max-height: 800px;
+   min-height: 200px;
+   width: 90%;
+   left: 5%;
+   margin: 0 auto;
+   padding: 0 20px;
+   text-align: center;
+ }
+
+ #example-5-graph-container {
+  height:63vh;
+  max-height: 800px;
+  min-height: 200px;
+  width: 90%;
+  left: 5%;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+ }
+
+.upload {
+	line-height: 30px;
+	min-width: 300px;
+	text-align: center;
+  display: inline-block;
+  text-align: center;
+  min-width: 300px;
+  color: #555;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 2px dashed #bbb;
+  cursor: pointer;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+.dropdown-group {
+  margin-left: 15px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+	display: inline-block;
+	min-width: 175px
+}
+
+.dropdown-label {
+  display: inline-block;
+  margin-right: 5px;
+  height: 30px;
+  width: 40px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.dropdown-axis {
+	width: 80%;
+  min-width: 175px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+}
+
+.axis-type, .Control-Label {
+	text-align: center;
+	margin: 3px 8px 3px 0px;
+}
+
+.slider {
+	font-size: 12px;
+	margin-top: 10px;
+	margin-bottom: 40px;
+	width : 100%;
+	display: inline-block;
+	vertical-align: middle
+}
+
+.dialog {
+	position: fixed;
+	top: 12%;
+	width: 80%;
+	height: 75%;
+	z-index: 1500;
+	overflow: scroll;
+}
+
+.overlay {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 1002;
+	background-color: black;
+	opacity: 0.5
+}
+
+.downloadlink:hover {
+  color: #18BC9C !important;
+  text-decoration: none;
+}
+
+.example-gif{
+  width: 80%;
+  max-width:800px;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.displayVid{
+  width: 80%;
+  max-width:1000px;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.cell--selected{
+  background-color: rgba(44,62,80,0.1) !important;
+}
+
+.dash-spreadsheet-container .dash-spreadsheet-inner table{
+  --accent: rgb(44,62,80) !important;
+}
+
+.nav-item{
+  z-index: 1005;
+}
+
+.threeDgraph div.js-plotly-plot div div svg:nth-child(1) g.bglayer rect.bg{fill:transparent !important;}
